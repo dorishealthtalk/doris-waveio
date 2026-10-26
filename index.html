@@ -181,6 +181,10 @@
     .card-foot { margin: 4px 0 22px; color: var(--muted); font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 14px; line-height: 1.7; }
     .purchase-actions { display: grid; gap: 10px; margin-top: auto; }
     .purchase-actions .btn { width: 100%; min-height: 52px; font-size: 14px; padding-inline: 18px; }
+    .discount-notice { padding: 14px 12px; border: 2px solid #bf6624; border-radius: 16px; background: #fff2d6; color: #743610; text-align: center; font-family: "Noto Sans TC", sans-serif; line-height: 1.65; }
+    .discount-notice strong { display: block; font-size: 17px; }
+    .discount-notice .discount-code { display: block; margin: 4px 0; color: #922d13; font-size: 30px; font-weight: 800; letter-spacing: .08em; }
+    .discount-notice .discount-expiry { display: block; font-size: 14px; font-weight: 700; }
     .note { margin-top: 14px; color: #7a89a0; font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 13px; line-height: 1.7; }
 
     .footer { text-align: center; padding: 30px 18px 44px; color: #7a89a0; font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-size: 13px; letter-spacing: .03em; }
@@ -308,6 +312,11 @@
           </ul>
           <div class="purchase-actions">
             <a class="btn btn-primary" href="https://myship.7-11.com.tw/general/detail/GM2606271807031" target="_blank" rel="noopener">超商取貨付款</a>
+            <div class="discount-notice" role="note" aria-label="折扣碼與使用期限">
+              <strong>結帳時請輸入折扣碼</strong>
+              <span class="discount-code">2026101</span>
+              <span class="discount-expiry">使用效期至 2026/10/29 截止</span>
+            </div>
             <a class="btn btn-primary" href="https://www.nuskin.com.tw/nuskin-tw-trade-application/api/v1/trans/1JoTNKU9Ahs" target="_blank" rel="noopener">刷卡下單</a>
           </div>
           <div class="note">可超商取貨、可宅配</div>
@@ -315,7 +324,7 @@
 
         <article class="purchase-card featured">
           <span class="pill">累積回饋</span>
-          <h3>如新入會購買</h3>
+          <h3>如新註冊購買</h3>
           <p>這筆消費可額外累積 6% 現金回饋，可折抵下筆訂單使用</p>
           <ul>
             <li><span class="li-main">信用卡刷卡一次付清</span></li>
@@ -324,7 +333,12 @@
           </ul>
           <div class="card-foot">適合未來想跟著朵朵體驗其他如新產品的妳</div>
           <div class="purchase-actions">
-            <a class="btn btn-gold" href="https://www.nuskin.com.tw/nuskin-tw-trade-application/api/v1/trans/1JoTD44RAqb" target="_blank" rel="noopener">前往如新入會購買</a>
+            <div class="discount-notice" role="note" aria-label="折扣碼與使用期限">
+              <strong>結帳時請輸入折扣碼</strong>
+              <span class="discount-code">2026101</span>
+              <span class="discount-expiry">使用效期至 2026/10/29 截止</span>
+            </div>
+            <a class="btn btn-gold" href="https://www.nuskin.com.tw/nuskin-tw-trade-application/api/v1/trans/1JoTD44RAqb" target="_blank" rel="noopener">前往如新註冊購買</a>
           </div>
         </article>
 
